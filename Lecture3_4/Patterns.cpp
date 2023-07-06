@@ -1,9 +1,9 @@
 /*
-* * * *
-* * * *
-* * * *
-* * * *
-*/
+ * * * *
+ * * * *
+ * * * *
+ * * * *
+ */
 // #include<iostream>
 // using namespace std;
 // int main()
@@ -19,22 +19,20 @@
 //     return 0;
 // }
 
-
-
 /*
-*
-* *
-* * *
-* * * *
-* * * * *
-*/
+ *
+ * *
+ * * *
+ * * * *
+ * * * * *
+ */
 // #include<iostream>
 // using namespace std;
 // int main()
 // {
 //     int n;
 //     cin>>n;
-//     for(int i=1; i<=n; i++){ //for rows  
+//     for(int i=1; i<=n; i++){ //for rows
 //         for(int j=1; j<=i; j++){    //for columns
 //             cout<<"* ";
 //         }
@@ -43,13 +41,11 @@
 //     return 0;
 // }
 
-
-
 /*
 1
-2 3 
-3 4 5 
-4 5 6 7 
+2 3
+3 4 5
+4 5 6 7
 5 6 7 8 9
 */
 // #include<iostream>
@@ -59,7 +55,7 @@
 //     int n;
 //     cin>>n;
 //     for(int i=1; i<=n; i++){ //for rows
-//         int value=i;   
+//         int value=i;
 //         for(int j=1; j<=i; j++){    //for columns
 //             cout<<value;
 //             value=value+1;
@@ -68,8 +64,6 @@
 //     }
 //     return 0;
 // }
-
-
 
 /*
 1
@@ -85,7 +79,7 @@
 //     int n;
 //     cin>>n;
 //     for(int i=1; i<=n; i++){ //for rows
-//         int value=i;   
+//         int value=i;
 //         for(int j=1; j<=i; j++){    //for columns
 //             cout<<value;
 //             value=value-1;
@@ -94,8 +88,6 @@
 //     }
 //     return 0;
 // }
-
-
 
 /*
 I/P: C
@@ -118,8 +110,6 @@ C C C
 //     }
 //     return 0;
 // }
-
-
 
 /*
 for I/P: 3
@@ -144,3 +134,185 @@ C C C
 //     return 0;
 // }
 
+/*
+        *
+      * *
+    * * *
+  * * * *
+ */
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     for(int i=n; i>=1; i--){ //for rows
+//         for(int j=1; j<=i; j++){    //for column spaces
+//             cout<<"  ";
+//         }
+//         for(int j=1; j<=n-i+1; j++){    //for stars
+//             cout<<"* ";
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+// OR
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cin>>n;
+//     for(int i=1; i<=n; i++){
+
+//         for(int space=n-i; space>=1; space--){
+//             cout<<"  ";
+
+//         }
+//         for(int j=1; j<=i; j++){
+//             cout<<"* ";
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+/*
+ * * * * *
+ * * * *
+ * * *
+ * *
+ *
+ */
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   int n;
+//   cin>>n;
+//   for(int i=n; i>=1; i--){
+//     for(int j=1; j<=i; j++){
+//       cout<<"* ";
+//     }
+//     cout<<endl;
+//   }
+//   return 0;
+// }
+
+
+
+/*
+* * * * *
+  * * * *
+    * * *
+      * *
+        *
+*/
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   for (int i=n; i>=1; i--){
+//     for (int space=1; space<=n-i; space++){
+//       cout<<"  ";
+//     }
+//     for(int j=1; j<=i; j++){
+//       cout<<"* ";
+//     }
+//     cout<<endl;
+//   }
+//   return 0;
+// }
+
+
+
+/*
+1 2 3 4
+  2 3 4
+    3 4
+      4
+*/
+// #include <iostream>
+// using namespace std;
+// int main()
+// {
+//   int n;
+//   cin >> n;
+//   for (int i=n; i>=1; i--){
+//     for (int space=1; space<=n-i; space++){
+//       cout<<"  ";
+//     }
+//     for(int j=1; j<=i; j++){
+//       cout<<n-i+j<<" "; // important step
+//     }
+//     cout<<endl;
+//   }
+//   return 0;
+// }
+
+
+
+/*
+      1
+    1 2 1
+  1 2 3 2 1
+1 2 3 4 3 2 1
+*/
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   int n;
+//   cin>>n;
+//   for(int i=1; i<=n; i++){
+//     for(int space=n-i; space>=1; space--){
+//       cout<<"  ";
+//     }
+//     for(int j=1; j<=i; j++){
+//       cout<<j<<" ";
+//     }
+//     for(int j=i-1; j>=1; j--){
+//       cout<<j<<" ";
+//     }
+//     cout<<endl;
+//   }
+//   return 0;
+// }
+
+
+
+/*
+1 2 3 4 5 5 4 3 2 1
+1 2 3 4 * * 4 3 2 1
+1 2 3 * * * * 3 2 1
+1 2 * * * * * * 2 1
+1 * * * * * * * * 1
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+  int n;
+  cin>>n;
+  for(int i=n; i>=1; i--){
+    for(int j=1; j<=i; j++){
+      cout<<j<<" ";
+    }
+    for(int j=1; j<=n-i; j++){
+      cout<<"* ";
+    }
+    for(int j=1; j<=n-i; j++){
+      cout<<"* ";
+    }
+    for(int j=i; j>=1;j--){
+      cout<<j<<" ";
+    }
+    cout<<endl;
+  }
+  return 0;
+}
