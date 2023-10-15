@@ -1,18 +1,26 @@
 #include<iostream>
 using namespace std;
-int main()
-{
-    int n;
-    cin>>n;
-    int i=2;
-    while(i<n){
-        if(n%i==0){
-            cout<<"Not Prime"<<endl;
+
+void primeNo(int x){
+    
+    int n=2;
+    int flag=0;
+    while(n<x){
+        if(x%n==0){
+            cout<<"Not Prime";
+            flag=1;
             break;
-            
         }
-        i=i+1;
+        n++;
     }
-    cout<<"Prime"<<endl;
+    if(flag==0){
+        cout<<"Prime";
+    }
+}
+int main(){
+    int x;
+    cout<<"Enter No.: ";
+    cin>>x;
+    primeNo(x);
     return 0;
 }
