@@ -29,7 +29,7 @@ using namespace std;
 //         }
 //     }
 // }
-void smallestPrime(int p, int q, int arr_size, int* arr){
+int smallestPrime(int p, int q, int arr_size, int* arr){
     int i=0;
     q=1;
     bool prime=true;
@@ -50,6 +50,7 @@ void smallestPrime(int p, int q, int arr_size, int* arr){
         }
         p++;
     }
+    return p;
 }
 int smallestNo(int* arr, int arr_size){
     int i=0;
@@ -73,7 +74,8 @@ int main(){
     cout<<"Smallest No. is: "<<q;
     // cout<<"Enter No.: ";
     // cin>>x;
-    smallestPrime(p, q, arr_size, arr);
+    int small = smallestPrime(p, q, arr_size, arr);
+    cout<<small;
     return 0;
 }
 
