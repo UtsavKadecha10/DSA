@@ -167,10 +167,8 @@ C C C
 //     int n;
 //     cin>>n;
 //     for(int i=1; i<=n; i++){
-
 //         for(int space=n-i; space>=1; space--){
 //             cout<<"  ";
-
 //         }
 //         for(int j=1; j<=i; j++){
 //             cout<<"* ";
@@ -293,61 +291,61 @@ C C C
 1 2 * * * * * * 2 1
 1 * * * * * * * * 1
 */
-#include<iostream>
-using namespace std;
-int main()
-{
-  int n;
-  cin>>n;
-  for(int i=n; i>=1; i--){
-    for(int j=1; j<=i; j++){
-      cout<<j<<" ";
-    }
-    for(int j=1; j<=n-i; j++){
-      cout<<"* ";
-    }
-    for(int j=1; j<=n-i; j++){
-      cout<<"* ";
-    }
-    for(int j=i; j>=1;j--){
-      cout<<j<<" ";
-    }
-    cout<<endl;
-  }
-  return 0;
-}
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//   int n;
+//   cin>>n;
+//   for(int i=n; i>=1; i--){
+//     for(int j=1; j<=i; j++){
+//       cout<<j<<" ";
+//     }
+//     for(int j=1; j<=n-i; j++){
+//       cout<<"* ";
+//     }
+//     for(int j=1; j<=n-i; j++){
+//       cout<<"* ";
+//     }
+//     for(int j=i; j>=1;j--){
+//       cout<<j<<" ";
+//     }
+//     cout<<endl;
+//   }
+//   return 0;
+// }
 
 
 
-/*
-* * * * *
-*       *
-*       *
-*       *
-* * * * *
-*/
-#include<iostream>
-using namespace std;
-int main()
-{
-    int row ,col; 
-    cout<<"No. of Rows: ";
-    cin>>row;
-    cout<<"No. of Columns: ";
-    cin>>col;
-    for(int i=1; i<=row; i++){
-        for(int j=1; j<=col; j++){
-            if(i==1 || j==1){
-                cout<<"* ";
-            }
-            else if(i==row || j==col){
-                cout<<"* ";
-            }
-            else{
-                cout<<"  ";
-            }
-        }
-        cout<<endl;
-    }
-    return 0;
-}
+// /*
+// * * * * *
+// *       *
+// *       *
+// *       *
+// * * * * *
+// */
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int row ,col; 
+//     cout<<"No. of Rows: ";
+//     cin>>row;
+//     cout<<"No. of Columns: ";
+//     cin>>col;
+//     for(int i=1; i<=row; i++){
+//         for(int j=1; j<=col; j++){
+//             if(i==1 || j==1){
+//                 cout<<"* ";
+//             }
+//             else if(i==row || j==col){
+//                 cout<<"* ";
+//             }
+//             else{
+//                 cout<<"  ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }

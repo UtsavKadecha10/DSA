@@ -1,3 +1,4 @@
+// To create a number from an array
 #include<iostream>
 using namespace std;
 
