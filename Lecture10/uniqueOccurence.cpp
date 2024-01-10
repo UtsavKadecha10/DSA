@@ -1,4 +1,6 @@
 /*
+LEETCODE
+// https://leetcode.com/problems/unique-number-of-occurrences/description/
 Given an array of integers arr, return true if the number of occurrences of each value in the array is unique, or false otherwise
 Eg. 
 arr= {1,2,3,2,1,1}
@@ -14,6 +16,7 @@ arr={1,1,2,3,2}
 O/P - false
 */
 
+// https://leetcode.com/problems/unique-number-of-occurrences/description/
 #include<iostream>
 using namespace std;
 
