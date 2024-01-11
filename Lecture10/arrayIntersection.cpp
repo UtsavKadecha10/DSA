@@ -17,6 +17,7 @@ using namespace std;
 
 vector<int> arrayIntersection(vector<int> &arr1, vector<int> &arr2, int n, int m){
     vector<int> ans;
+    int res=0;
     int i=0, j=0;
     while(i<n && j<m){
         if(arr1[i]==arr2[j]){
