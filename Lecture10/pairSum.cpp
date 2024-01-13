@@ -32,6 +32,9 @@ int main(){
     vector<int> arr = {1,2,3,4,5};
     int sum = 5;
     vector<vector<int>> result = pairSum(arr, sum);
+    // for(int i=0; i<5; i++){
+        // cout<<vector<int> result;
+    // }
     return 0;
 }
 
