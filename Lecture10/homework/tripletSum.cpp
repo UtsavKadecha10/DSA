@@ -7,6 +7,6 @@ https://www.codingninjas.com/studio/problems/triplet-with-given-sum_893028
 using namespace std;
 int main()
 {
-    cout<<"triplet sum";
+    
     return 0;
 }
