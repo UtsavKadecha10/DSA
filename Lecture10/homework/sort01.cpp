@@ -14,7 +14,6 @@ void sort01(int arr[], int n){ //n=size
             if(arr[j]==0){
                 swap(arr[i], arr[j]);
                 i++;
-                j++;
             }
             else{
                 j--;
@@ -30,7 +29,7 @@ void printArray(int arr[], int size){
 
 int main()
 {
-    int arr[7]={0,1,1,0,1,0,1};
+    int arr[7]={1,1,0,1,1,0,0};
     int size=7;
     sort01(arr, size); 
     printArray(arr, size);
