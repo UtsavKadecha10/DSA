@@ -21,7 +21,14 @@ void sort012(int arr[], int n){
             if(arr[j]==0){
                 swap(arr[i], arr[j]);
                 i++;
-                j=n-1;
+            }
+            else if(arr[j]==1){
+                int k=j;
+                j--;
+                i++;
+                if(arr[i]==1){
+                    
+                }
             }
             else{
                 j--;
