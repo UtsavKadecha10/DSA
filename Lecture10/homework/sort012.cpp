@@ -40,7 +40,7 @@ void sort012(int arr[], int n){
                 i=0;
             }
             else if(arr[j]==0){
-                swap(arr[i], arr[j]);
+                swap(arr[i], arr[j]); 
                 i++;
             }
             else{
