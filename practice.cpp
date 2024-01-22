@@ -1,11 +1,10 @@
 #include<iostream>
 using namespace std;
-
+// swap
 int main(){
-    int j=10; 
-    int k=j;
-    cout<<"J is:"<<j;
-    cout<<"k is:"<<k;
+    int a=10, b=20; 
+    a=a+b;
+  
 
     return 0;
 }
