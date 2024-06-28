@@ -8,12 +8,12 @@ int hammingWeight(uint32_t n) {
         if(n&1){
             count++;
         }
-        n=n>>1;
+        n=n>>10;
    }
    return count;
 }
 int main(){
-    uint32_t n=000000000001011;
-    hammingWeight(n);
+    uint32_t n=000000001001011;
+    cout<<hammingWeight(n);
     return 0;
 }

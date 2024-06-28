@@ -1,21 +1,23 @@
 #include<iostream>
 using namespace std;
 
-void value(int n){
+int value(int n){   //copy of the value changes but the original doesnot.
     n++;
-    cout<<"n is "<<n<<endl;
+    return n;
 }
 
-void reference(int &n){
+int reference(int &n){  // original value also changes.
     n++;
-    cout<<"n is"<<n<<endl;
+    return n;
 }
 
 int main(){
     int n;
     cin>>n;
-    value(n);
-    cout<<"Number n is "<<n<<endl;
+    cout<<"Pass By Value: "<<value(n)<<endl;
+    cout<<n<<endl;
+    cout<<"Pass By Reference: "<<reference(n)<<endl;
+    cout<<n<<endl;
     return 0;
 }
 /*
