@@ -1,0 +1,8 @@
+1. Print like a Wave
+https://www.naukri.com/code360/problems/print-like-a-wave_893268?count=25&page=1&search=&sort_entity=order&sort_order=ASC&leftPanelTabValue=PROBLEM
+
+2. Spiral Matrix
+https://leetcode.com/problems/spiral-matrix/ 
+
+3. Rotate Images
+https://leetcode.com/problems/rotate-image/description/

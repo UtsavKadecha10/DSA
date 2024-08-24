@@ -1,0 +1,6 @@
+1. Behind the scenes
+    array:  int a[10];
+            (memory->40bytes)
+    pointer:    int a[10]; 
+                int *p = &arr[0]; 
+                (memory->4bytes)

@@ -1,0 +1,13 @@
+1. Jagged Arrays(Lec28): https://www.geeksfx`orgeeks.org/jagged-arrays-in-cpp/
+Two ways to implement
+    I. using static array of pointers
+    II using dynamic 2D arrays
+
+2. Tower of Hanoi(Lec31): https://www.naukri.com/code360/guided-paths/data-structures-algorithms/content/118522/offering/1380918?leftPanelTabValue=PROBLEM
+(n-1) disk from source to helper    (recursion)
+1 last disk from source to destination (push_back({s,d});)
+(n-1) disk from helper to destination   (recursion)
+
+3. Family Structure(Lec31): https://www.naukri.com/code360/guided-paths/data-structures-algorithms/content/118522/offering/1380914?leftPanelTabValue=PROBLEM
+
+4. Nth term of GP(Lec31)(Partially solved): https://www.naukri.com/code360/guided-paths/data-structures-algorithms/content/118522/offering/1380915?resumeRedirection=true

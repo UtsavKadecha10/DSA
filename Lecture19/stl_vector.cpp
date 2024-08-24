@@ -8,6 +8,9 @@ int main()
 {
     vector<int> v;
 
+    vector<pair<int, int>> vec; //refer stl_pair.cpp
+
+
     vector<int> a(5, 2); //5->size, 1->Initializes all elements with 1
     for(int i:a){
         cout<<i;
@@ -54,5 +57,24 @@ int main()
     v.clear();
     cout<<"Capacity after clear(): "<<v.capacity()<<endl; //8
     cout<<"Size after clear(): "<<v.size()<<endl; //0
+
+     
     return 0;
 }
+
+// int i=0;
+//     while(i<arr.size()){
+//         if(i<=m){
+//             i++;
+//         }
+//         else{
+//             for(int j=m+1; j<(arr.size()-m)/2; j++){
+//                 swap(arr[j], arr[(arr.size()-m)-1-j]);
+//             } 
+//             i++;
+//         }     
+//     }
+
+// 
+
+
