@@ -11,3 +11,8 @@ Two ways to implement
 3. Family Structure(Lec31): https://www.naukri.com/code360/guided-paths/data-structures-algorithms/content/118522/offering/1380914?leftPanelTabValue=PROBLEM
 
 4. Nth term of GP(Lec31)(Partially solved): https://www.naukri.com/code360/guided-paths/data-structures-algorithms/content/118522/offering/1380915?resumeRedirection=true
+
+5. Count ways to reach nth stair(Lec32)(Partially Solved): https://www.naukri.com/code360/problems/count-ways-to-reach-nth-stairs_798650
+Partially solved using recursion, will be solved using Dynamic Programming
+
+6. Best Time to buy and sell stocks
